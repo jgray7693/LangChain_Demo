@@ -1,0 +1,9 @@
+# Python
+.env
+__pycache__
+myenv
+# vectorstore
+chroma_langchain_db
+# scratch files
+prompt.pdf
+[a-z].py

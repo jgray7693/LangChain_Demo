@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.chilesandsmoke.com/wp-content/uploads/2023/06/Santa-Maria-Tri-Tip_003-819x1024.jpg">
+                <img src="Images/D8F8EC9A-4938-434C-9A66-0E5BD4636E78/B0999287-FB05-47D6-B404-FD2274E6C5C4.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Grilled Santa Maria Tri Tip</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">BBQ</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Cook Time: </b><span itemprop="">20</span>
+            <b>Servings: </b><span itemprop="">Yield: 6-8</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.chilesandsmoke.com/santa-maria-tri-tip/">
+                        <span itemprop="author">Chilesandsmoke.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2–3</strong> lb Tri-Tip steak</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon kosher salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon fresh ground black pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon granulated garlic</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons paprika</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon cayenne</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon onion powder</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon celery seeds</p><p class="line" itemprop="recipeIngredient">MOP SAUCE</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup vegetable oil</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup red wine vinegar</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> garlic cloves, smashed</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> teaspoon dijon mustard</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> teaspoon kosher salt</p><p class="line" itemprop="recipeIngredient">Bundle of fresh herbs; thyme, rosemary, sage, oregano, etc.</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Season the tri-tip steak. Mix the rub ingredients together, taste, and adjust as needed. Season all sides of the steak generously and allow it to sit at room temperature for about 20 minutes prior to grilling.</p><p class="line">Prepare the mop sauce. Mix the ingredients together in a small saucepan. Bundle the herbs together if using and tie them together with butcher’s twine to make a flavorful brush.</p><p class="line">Prepare the grill for 2-zone cooking at around 250-275°F. Light the coals and set them on one side of the grill, leaving the other side without direct heat. Add chunks of hardwood if using to the coals.</p><p class="line">Smoke the tri-tip steak. Place the steak on the cool side of the grill away from the coals. Make sure the thickest part is the closest to the fire so that the thinner side doesn’t overcook. Allow the steak to cook with the lid closed for about 40-60 minutes until it reaches around 115-118°F.</p><p class="line">Lift the lid and sear the steak. Allow the coals to start burning hotter by lifting the lid off the grill. Get the basting pan ready with the brush. Move the steak to the hot side of the grill and allow it to sear for 45 seconds. Flip the steak and immediately baste it with the sauce. Continue to repeat this process until the steak reaches your target temperature, about 128-130°F for medium rare. NOTE: If the steak is searing too quickly, move it to the cooler side for a minute to slow down the cooking. It’s best to take your time rather than burn the outside. Move it back over the heat and continue searing when ready.</p><p class="line">Allow the steak to rest before slicing. Give it about 15 minutes to rest at room temperature. This will allow the juices to redistribute. Slice against the grain and serve.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>You want to continually flip and baste to build up a beautiful crust and allow it to finish cooking evenly. This prevents any one side from overcooking.</p>
+        </div>
+    </div>
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

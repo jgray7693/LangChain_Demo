@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            @page {
+                size: letter portrait;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14px;
+            }
+            .metadata {
+                font-size: 14px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                float: left;
+                margin-right: 14px;
+                            }
+            .photo {
+                max-width: 140px;
+                max-height: 140px;
+                width: auto;
+                height: auto;
+            }
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                page-break-after: always;
+                            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        <div class="photobox">
+            <a href="https://www.gimmesomeoven.com/wp-content/uploads/2020/10/Beef-Stroganoff-Recipe-9-640x960.jpg">
+                <img src="Images/C15D16ED-5A46-43F3-8C70-15665071C256/FF22EBE7-7513-4B83-8573-DA85436313B1.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+                    </div>
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Beef Stroganoff</h1>
+        
+        <!-- Info -->
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+            <p itemprop="recipeCategory" class="categories">Entrees</p>
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            <b>Prep Time: </b><span itemprop="">5 minutes</span>
+            <b>Cook Time: </b><span itemprop="">25 minutes</span>
+            <b>Servings: </b><span itemprop="">Yield: 4-6 servings</span>
+
+            <!-- Source -->
+                <b>Source: </b>
+                    <a itemprop="url" href="https://www.gimmesomeoven.com/easy-beef-stroganoff-recipe/">
+                        <span itemprop="author">Gimmesomeoven.com</span>
+                    </a>
+                            
+        </p>
+        
+        <div class="clear"></div>
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>1</strong> pound uncooked wide egg noodles</p><p class="line" itemprop="recipeIngredient"><strong>1/4</strong> cup butter, divided</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> pounds thinly-sliced steak (I recommend flank steak)</p><p class="line" itemprop="recipeIngredient">fine sea salt and freshly-cracked black pepper</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> small white onion, thinly sliced</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> pound sliced mushrooms (I used a mix of button and baby bella mushrooms)</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> cloves garlic, minced or pressed</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup dry white wine*</p><p class="line" itemprop="recipeIngredient"><strong>1 1/2</strong> cups beef stock</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon Worcestershire sauce</p><p class="line" itemprop="recipeIngredient"><strong>3</strong> tablespoons all-purpose flour</p><p class="line" itemprop="recipeIngredient"><strong>1/2</strong> cup plain Greek yogurt or light sour cream</p><p class="line" itemprop="recipeIngredient">chopped fresh parsley (optional)</p>
+            </div>
+        </div>
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+
+    <!-- Directions -->
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Cook the noodles: Cook egg noodles in a large stockpot of generously-salted water until they are al dente, according to package instructions, then drain. (For optimal timing, I recommend adding the egg noodles to the boiling water at the same time that you begin Step 4, listed below.)</p><p class="line">Sauté the steak: Meanwhile, as your pasta water is coming to a boil, melt 2 tablespoons of the butter in a large sauté pan over medium-high heat. Add the steak in a single layer, seasoned with a few generous pinches of salt and pepper, and let it cook undisturbed for about 3 minutes to get a good sear. Flip the steak, and cook on the other side until browned, another 2-3 minutes. Then remove steak from pan with a slotted spoon, transfer to a clean plate, and set aside. (If your pan is not big enough to fit all of the steak in a single layer, cook half of the steak in 1 tablespoon of butter. Then repeat with a second batch.)</p><p class="line">Sauté the veggies: Add the remaining 2 tablespoons butter to the sauté pan. Once it has melted, add the onions and sauté for about 3 minutes. Add mushrooms and sauté for an additional 5-7 minutes, stirring occasionally, or until the mushrooms are cooked and the onions are soft. Add the garlic and sauté for 1 minute, stirring occasionally. Then add the white wine and deglaze the pan by using your cooking spoon to scrape the brown bits off the bottom of the pan. Let the mixture cook down for an additional 3 minutes.</p><p class="line">Finish the sauce: While the wine cooks down, whisk together the beef stock, Worcestershire sauce and flour until smooth in a separate bowl. Pour the beef stock mixture into the sauté pan, stir to combine, then let the mixture simmer for 5 minutes, stirring occasionally. Stir in the Greek yogurt (or sour cream) and cooked steak until combined. Taste and season with additional salt and pepper if needed.</p><p class="line">Serve: Serve warm over egg noodles, garnished with a sprinkle of parsley and an extra twist of black pepper, if desired.</p>
+        </div>
+    </div>
+
+    <!-- Notes -->
+
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+        <!-- Used in two different places depending on the recipe layout -->
+
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+    </body>
+</html>

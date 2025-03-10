@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+numpy
+chromadb
+google-genai
+langchain
+BeautifulSoup4
+langchain-google-genai
+jinja2
