@@ -65,3 +65,8 @@ The chatbot will return similar recipes from the database. When you select a rec
 Here is an example of an interaction with the chatbot:
 
 ![Recipe Chatbot Interaction](screenshots/screenshot.png)
+
+## Architecture Diagram
+Below is a high level overview of the system workflow:
+
+![Architecture Diagram](screenshots/architecture.png)
